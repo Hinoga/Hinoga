@@ -1,0 +1,55 @@
+html {
+  background-color: white;
+  /* background: url(../images/background.jpeg) no-repeat center center fixed; */
+}
+
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.08);
+  /* position: absolute;
+  right: 0; */
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+  color: black;
+  text-align: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: #2b2a29;
+  border-width: 1px;
+  border-radius: 7px;
+}
+
+h1 {
+  font-weight: 100;
+  letter-spacing: 6;
+  font-size: 20px;
+}
+
+p {
+  font-weight: 100;
+  letter-spacing: 1;
+}
+
+.line-break {
+  width: 140px;
+  margin: 0 auto;
+  border-top: 1px solid grey;
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.social-icons a {
+  color: grey;
+}
+
+.social-icons a:hover {
+  color: black;
+}
