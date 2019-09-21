@@ -9,8 +9,8 @@ html {
   right: 0; */
   margin: 0 auto;
   margin-top: 100px;
-  width: 300px;
-  height: 300px;
+  width: 150px;
+  height: 200px;
   padding: 50px;
   color: black;
   text-align: center;
@@ -52,4 +52,11 @@ p {
 
 .social-icons a:hover {
   color: black;
+}
+
+@media only screen and (min-width: 600px) {
+  .wrapper {
+    width: 300px;
+    height: 300px;
+  }
 }
