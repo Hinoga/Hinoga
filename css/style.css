@@ -1,8 +1,6 @@
-html {
-  background-color: white;
-  /* background: url(../images/background.jpeg) no-repeat center center fixed; */
+body {
+  font-family: 'Open Sans', sans-serif;
 }
-
 .wrapper {
   background-color: rgba(0, 0, 0, 0.08);
   /* position: absolute;
