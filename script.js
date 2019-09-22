@@ -2,7 +2,8 @@ let btn = document.getElementById('menu')
 let links = document.getElementById('links')
 let flag = false
 if (btn) {
-  btn.addEventListener('click', () => {
+  btn.addEventListener('click', e => {
+    e.preventDefault()
     if (flag === false) {
       links.className = 'links two'
       flag = true

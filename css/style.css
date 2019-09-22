@@ -67,7 +67,6 @@ img {
   border: 1px solid #fff;
   width: 150px;
   border-radius: 3px;
-  font-weight: 300;
   text-align: center;
   padding: 5px 0;
   animation: moveRight 1s ease-in;
@@ -82,7 +81,7 @@ img {
 }
 
 .wave {
-  height: 300px;
+  height: 100px;
   width: 100%;
   background: #c31432;
   background: -webkit-linear-gradient(to right, #240b36, #c31432);
@@ -92,8 +91,6 @@ img {
 .menu {
   display: block;
   z-index: 10;
-  /* -webkit-clip-path: circle(0% at 0 0);
-  clip-path: circle(0% at 0 0); */
   animation: moveLeft 1s ease-in;
 }
 
@@ -109,9 +106,9 @@ img {
   flex-direction: column;
   width: 100%;
   transition: all 1s ease;
-  background: #b92b27;
-  background: -webkit-linear-gradient(to right, #1565c0, #b92b27);
-  background: linear-gradient(to right, #1565c0, #b92b27);
+  background: #c31432;
+  background: -webkit-linear-gradient(to top, #240b36, #c31432);
+  background: linear-gradient(to top, #240b36, #c31432);
 }
 
 .one {
@@ -154,5 +151,81 @@ img {
   100% {
     opacity: 1;
     transform: translate(0);
+  }
+}
+
+@media screen and (max-width: 1065px) {
+  img {
+    height: 390px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  img {
+    height: 320px;
+  }
+  .text h1 {
+    font-size: 45px;
+  }
+  .text h2 {
+    font-size: 20px;
+  }
+  .social-icons {
+    font-size: 25px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  img {
+    height: 200px;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .text h2 {
+    font-size: 15px;
+  }
+  .social-icons {
+    font-size: 25px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 100%;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 30px;
+  }
+  .text h2 {
+    font-size: 12px;
+  }
+  .social-icons {
+    font-size: 25px;
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  img {
+    height: 150px;
+  }
+  .text h1 {
+    font-size: 25px;
+  }
+  .text h2 {
+    font-size: 11px;
+  }
+  .social-icons {
+    font-size: 20px;
+    width: 115px;
   }
 }
